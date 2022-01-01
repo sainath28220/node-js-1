@@ -1,6 +1,8 @@
 function getNameFromCommandLine() {
-    const process = require("process");
-    return process.argv[2];
+    // const process = require("process");
+    // return process.argv[2];
+    // process.argv=[...process.argv,"Yash"]
+    // return process.argv[2]
 }
 
 function getNameFromEnv() {
